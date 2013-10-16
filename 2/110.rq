@@ -1,0 +1,77 @@
+#101#
+select * 
+{
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00520> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName> ?drugname .
+}
+
+
+#102#
+select * 
+{
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/196> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName> ?sideEffectName .
+}
+
+
+#103#
+select *
+{
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1747> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName> ?drugname .
+}
+
+
+#104#
+Select * 
+{
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/2771> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+#105#
+Select * 
+{
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/2771> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+#106#
+select * {
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1498>
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug .
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#107#
+select * {
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/377>
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug .
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+#108#
+select * 
+{
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00001> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ?brandedDrug .
+?brandedDrug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+#109#
+select * 
+{	
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00044> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ?disease .
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}
+
+
+#110#
+select *
+{
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1057> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease .
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}

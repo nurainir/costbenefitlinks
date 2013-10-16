@@ -1,0 +1,78 @@
+#91#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1002> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#92#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/132> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#93#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1342> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#94#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1943> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#95#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1944> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#96#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1000> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug>  ?drug . 
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#97#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1002> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?drug . 
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#98#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1004> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?drug . 
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#99#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1006> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?drug . 
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#100#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1014> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?drug . 
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}

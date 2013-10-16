@@ -1,0 +1,78 @@
+#171#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/32> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName> ?sideEffectName .
+}
+
+
+#172#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/85> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName> ?sideEffectName .
+}
+
+
+#173#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1000> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#174#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1725> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#175#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/2040> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#176#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/216> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#177#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/2363> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#178#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1002> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}
+
+
+#179#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/132> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}
+
+
+#180#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1342> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}

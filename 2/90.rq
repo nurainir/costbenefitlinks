@@ -1,0 +1,78 @@
+#81#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1000> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#82#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1004> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#83#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/99> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#84#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/902> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#85#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/85> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#86#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1000> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#87#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1725> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#88#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/2040> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#89#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/216> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#90#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/2363> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}

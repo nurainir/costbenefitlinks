@@ -1,0 +1,94 @@
+#201#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00024> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug>  ?brandeddrug . 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00024> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ?disease . 
+?brandeddrug <http://www.w3.org/2000/01/rdf-schema#label> ?brandeddrugname .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?diseasename .
+}
+
+
+#202#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB01097> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug>  ?brandeddrug . 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB01097> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?brandeddrug <http://www.w3.org/2000/01/rdf-schema#label> ?brandeddrugname .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+#203#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00014> <http://www.w3.org/2002/07/owl#sameAs> ?other . 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00014> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ?disease . 
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?diseasename .
+}
+
+
+#204#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/132> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/132> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?diseasename .
+}
+
+
+#205#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/132> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/132> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug>  ?genericdrug . 
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+?genericdrug <http://www.w3.org/2000/01/rdf-schema#label> ?genericdrugname .
+}
+
+#206#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/132> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/132> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug>  ?genericdrug . 
+?genericdrug <http://www.w3.org/2000/01/rdf-schema#label> ?genericdrugname .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?diseasename .
+}
+
+
+#207#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1004> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1004> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+
+#208#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00437> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug>  ?brandeddrug . 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00437> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?brandeddrug <http://www.w3.org/2000/01/rdf-schema#label> ?brandeddrugname .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+#209#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/3872> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/3872> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?diseasename .
+}
+
+#210#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1278> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1278> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}

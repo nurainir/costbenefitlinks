@@ -1,0 +1,21 @@
+select ?brandname ?genericname {
+?drug a <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/drugs> .
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?brandname .
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeIngredient> ?ingredients .
+?ingredients <http://www.w3.org/2000/01/rdf-schema#label> ?genericname .
+?anydrug a <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+?anydrug <http://www.w3.org/2000/01/rdf-schema#label> ?genericname .
+}
+limit 10
+
+The following are a list of Branded Drug and its Generic Drug based on the active ingridients 
+Gabapentin (Capsule) - Gabapentin	
+ZESTORETIC (Tablet) - Lisinopril	
+Lisinopril (Tablet) - Lisinopril	
+Ketoconazole (Tablet) - Ketoconazole	
+Zazole (Cream) - Terconazole	
+Lovastatin (Tablet) - Lovastatin	
+Capoten (Tablet) - Captopril	
+Lovastatin (Tablet) - Lovastatin	
+Aminonide (Cream) - Amcinonide	
+Temazepam (Capsule) - Temazepam

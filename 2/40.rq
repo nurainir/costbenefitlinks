@@ -1,0 +1,88 @@
+#31#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00020> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#32#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00023> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#33#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00024> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#34#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/745> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug>  ?drug .
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ?disease .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name . 
+}
+
+
+#35#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/708> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug>  ?drug .
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ?disease .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name . 
+}
+
+
+#36#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/2778> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug>  ?drug .
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ?disease .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name . 
+}
+
+
+#37#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00005> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ?disease . 
+?disease <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#38#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00131> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ?disease . 
+?disease <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#39#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00665> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ?disease . 
+?disease <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#40#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1002> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}

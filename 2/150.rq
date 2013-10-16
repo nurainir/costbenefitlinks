@@ -1,0 +1,78 @@
+#141#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0040034> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}
+
+
+#142#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0041351> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}
+
+
+#143#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0085584> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}
+
+
+#144#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0600139> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}
+
+
+#145#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00136> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#146#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00150> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#147#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00572> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#148#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00683> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#149#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00945> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#150#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00020> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}

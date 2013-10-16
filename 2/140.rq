@@ -1,0 +1,82 @@
+#131#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/0> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?genericdrug . 
+?genericdrug   <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#132#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/372> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?genericdrug . 
+?genericdrug   <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#133#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/54454> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#134#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/3488> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#135#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/104865> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+
+#136#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/1117> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+
+#137#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/1117> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+#138#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/2083> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#139#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/2083> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+#140#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/2751> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}

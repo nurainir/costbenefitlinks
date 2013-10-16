@@ -1,0 +1,82 @@
+#161#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/0> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+
+#162#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/3703> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#163#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/372> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#164#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/372> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+#165#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/100> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+#166#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/116> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+
+
+#167#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/121> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#168#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/3004> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+
+#169#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/1004> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName> ?sideEffectName .
+}
+
+
+#170#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/99> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName> ?sideEffectName .
+}

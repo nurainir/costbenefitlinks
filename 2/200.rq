@@ -1,0 +1,83 @@
+#191#
+select * 
+{
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/representedOrganization> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/organization/Bayer_HealthCare_Pharmaceuticals_Inc.> .
+?drug  <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeIngredient> ?activeIngredient .
+?drug  <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+
+#192#
+SELECT *
+{ 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugCategory> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugcategory/anti-inflammatoryAgents> .
+?drug  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugType> ?drugType .
+}
+
+
+
+#193#
+SELECT *
+{ 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugCategory> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugcategory/anti-inflammatoryAgents> .
+?drug  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugType> ?drugType .
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/enzyme> ?enzyme .
+}
+
+
+
+#194#
+select * {
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Respiratory> .
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene> ?Gene .
+}
+
+
+#195#
+select * {
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Respiratory> .
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene> ?Gene .
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/chromosomalLocation> ?chromosomalLocation .
+}
+
+
+#196#
+Select * {
+?drug <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffect> <http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0002622> .
+?drug <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#197#
+Select * {
+?drug <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffect> <http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0002622> .
+?drug <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+?drug <http://xmlns.com/foaf/0.1/page> ?page .
+}
+
+
+#198#
+Select * {
+?drug <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/siderDrugId> "2140" .
+?drug <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffect> ?sideEffect .
+?drug <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ?stitchId .
+}
+
+
+#199#
+select * 
+{
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name>  "Cipro" .
+?drug  <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeIngredient> ?activeIngredient .
+?drug  <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?activeMoiety .
+}
+
+
+#200#
+SELECT *
+{ 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/pharmgkbId> "PA450620" .
+?drug  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugType> ?drugType .
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/enzyme> ?enzyme .
+}

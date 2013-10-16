@@ -1,0 +1,85 @@
+#41#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/132> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#42#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1342> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#43#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/3703> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ?branddug . 
+?branddug  <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#44#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/0> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ?branddug . 
+?branddug  <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#45#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/372> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ?branddug . 
+?branddug  <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#46#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/3703> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?genericdrug . 
+?genericdrug  <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#47#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/0> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?genericdrug . 
+?genericdrug  <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#48#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/372> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug . 
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?genericdrug . 
+?genericdrug  <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+#49#
+select * {
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Respiratory> .
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug .
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#50#
+select * {
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseaseClass/Respiratory> .
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug .
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name . 
+}

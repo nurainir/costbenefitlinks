@@ -1,0 +1,22 @@
+select ?brandname ?genericname {
+?drug a <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/drugs> .
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?brandname .
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ?ingredients .
+?ingredients <http://www.w3.org/2000/01/rdf-schema#label> ?genericname .
+?anydrug a <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+?anydrug <http://www.w3.org/2000/01/rdf-schema#label> ?genericname .
+}
+limit 10
+
+
+The following are a list of Branded Drug and its Generic Drug based on active Moiety *
+Evista (Tablet) - Raloxifene	
+Gabapentin (Capsule) - Gabapentin	
+Vasocidin (Solution) - Prednisolone	
+Pergolide Mesylate (Tablet) - Pergolide	
+Galantamine (Tablet) - Galantamine	
+Penicillin V Potassium (Tablet) - Penicillin V	
+ZESTORETIC (Tablet) - Lisinopril	
+"SEROQUEL (Tablet -  Coated)" - Quetiapine	
+Acebutolol Hydrochloride (Capsule) - Acebutolol	
+Bacitracin (Ointment) - Bacitracin

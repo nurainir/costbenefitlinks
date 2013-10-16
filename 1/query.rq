@@ -1,0 +1,95 @@
+#1#
+select distinct ?siderdrug ?drugname 
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00316>  <http://www.w3.org/2000/01/rdf-schema#label> ?drugname  . 
+?siderdrug a  <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugs> .
+?siderdrug <http://www.w3.org/2000/01/rdf-schema#label> ?drugname .
+}
+
+#2#
+select  distinct ?siderdrug ?drugname 
+{
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00316>  <http://www.w3.org/2002/07/owl#sameAs> ?siderdrug  .
+?siderdrug a  <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugs> .
+?siderdrug <http://www.w3.org/2000/01/rdf-schema#label> ?drugname .
+}
+
+
+#3#
+select distinct ?siderdrug ?drugname 
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00984>  <http://www.w3.org/2000/01/rdf-schema#label> ?drugname  . 
+?siderdrug a  <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugs> .
+?siderdrug <http://www.w3.org/2000/01/rdf-schema#label> ?drugname .
+}
+
+#4#
+select  distinct ?siderdrug ?drugname 
+{
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00984>  <http://www.w3.org/2002/07/owl#sameAs> ?siderdrug  .
+?siderdrug a  <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugs> .
+?siderdrug <http://www.w3.org/2000/01/rdf-schema#label> ?drugname .
+}
+
+#5#
+select distinct ?anydrug ?drugname 
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/951> <http://www.w3.org/2000/01/rdf-schema#label> ?drugname  . 
+?anydrug a <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+?anydrug <http://www.w3.org/2000/01/rdf-schema#label> ?drugname .
+}
+
+#6#
+select  distinct ?anydrug ?drugname 
+{
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/951> <http://www.w3.org/2002/07/owl#sameAs> ?anydrug  .
+?anydrug a <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+?anydrug <http://www.w3.org/2000/01/rdf-schema#label> ?drugname .
+}
+
+#7#
+select distinct ?anydrug ?drugname 
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/727> <http://www.w3.org/2000/01/rdf-schema#label> ?drugname  . 
+?anydrug a <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/drugs>  .
+?anydrug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name> ?drugname .
+}
+
+#8#
+select  distinct ?anydrug ?drugname 
+{
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/727> <http://www.w3.org/2002/07/owl#sameAs> ?anydrug  .
+?anydrug a <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+?anydrug <http://www.w3.org/2000/01/rdf-schema#label> ?drugname .
+}
+
+9#
+select distinct ?anydrug ?drugname 
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/60> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine> ?drugname  . 
+?anydrug a <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+?anydrug <http://www.w3.org/2000/01/rdf-schema#label> ?drugname .
+}
+
+#10elect  distinct ?anydrug ?drugname 
+{
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/60> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?anydrug  .
+?anydrug a <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+?anydrug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName> ?drugname .
+}
+
+#11#
+select distinct ?anydrug ?drugname 
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/3460> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name> ?drugname  . 
+?anydrug a <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+?anydrug <http://www.w3.org/2000/01/rdf-schema#label> ?drugname .
+}
+
+#12#
+select  distinct ?anydrug ?drugname 
+{
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/3460> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?anydrug  .
+?anydrug a <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+?anydrug <http://www.w3.org/2000/01/rdf-schema#label> ?drugname .
+}

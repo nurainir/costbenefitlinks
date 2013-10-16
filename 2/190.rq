@@ -1,0 +1,79 @@
+#181#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1943> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}
+
+
+#182#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1944> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease . 
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}
+
+
+#183#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1301> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug>  ?drug . 
+?drug  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#184#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1002> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?drug . 
+?drug  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#185#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1879> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?drug . 
+?drug  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#186#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/743> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?drug . 
+?drug  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#187#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/717> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?drug . 
+?drug  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+#188#
+Select * {
+?drug <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffect> <http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0002622> .
+?drug <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chebiId> ?chebiId .
+}
+
+
+
+#189#
+Select * {
+?drug <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffect> <http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0002622> .
+?drug <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name . 
+}
+
+
+#190#
+select * 
+{
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/representedOrganization> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/organization/Bayer_HealthCare_Pharmaceuticals_Inc.> .
+?drug  <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeIngredient> ?activeIngredient .
+}

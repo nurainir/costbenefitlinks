@@ -1,0 +1,78 @@
+#1#
+Select * {
+?drug a <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugs> .
+?drug <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+
+#2#
+select * 
+{
+?drug a <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+?drug <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+
+#3#
+select * 
+{
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00520> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+
+#4#
+select * {
+?disease a <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> .
+?disease <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+
+#5#
+select * {
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/196> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+
+#6#
+select *
+{
+?drug a <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/drugs> .
+?drug <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+
+#7#
+select *
+{
+<http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1747> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+
+#8#
+Select * {
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/2771> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+
+#9#
+select * {
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/377>
+<http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ?drug .
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?drugname .
+}
+
+
+#10#
+Select * {
+?side_effects a <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/side_effects> .
+?side_effects <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}

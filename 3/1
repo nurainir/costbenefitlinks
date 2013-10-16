@@ -1,0 +1,22 @@
+select ?brandname ?genericname {
+?drug a <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/drugs> .
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?brandname .
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/inactiveIngredient> ?ingredients .
+?ingredients <http://www.w3.org/2000/01/rdf-schema#label> ?genericname .
+?anydrug a <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+?anydrug <http://www.w3.org/2000/01/rdf-schema#label> ?genericname .
+}
+limit 10
+
+
+The following are a list of Branded Drug and its Generic Drug based on its inactive ingridients
+Evista (Tablet) - Lactose	
+Lisinopril (Tablet) - Mannitol 	
+Triamcinolone Acetonide (Cream) - Lactic Acid	
+Aminonide (Cream) - Lactic Acid	
+Fluocinolone Acetonide (Cream) - Citric Acid	
+Acetaminophen and Codeine Phosphate (Solution) - Sucrose 	
+Capoten (Tablet) - Lactose	
+Macrotec - Acetic Acid	
+Uniretic - Lactose	
+Sodium Acetate - Acetic Acid

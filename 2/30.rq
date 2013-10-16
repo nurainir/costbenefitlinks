@@ -1,0 +1,85 @@
+#21#
+Select * {
+<http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0000832> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+
+#22#
+select * 
+{
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00525> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?othername .
+}
+
+#23#
+select * 
+{
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/representedOrganization> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/organization/Bayer_HealthCare_Pharmaceuticals_Inc.> .
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name . 
+}
+
+
+#24#
+select * 
+{
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/representedOrganization> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/organization/Bayer_HealthCare_Pharmaceuticals_Inc.> .
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ?disease .
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}
+
+
+#25#
+SELECT *
+{ 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugCategory> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugcategory/anti-inflammatoryAgents> .
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ?disease .
+?disease <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ?diseaseclass .
+}
+
+
+#26#
+SELECT *
+{ 
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugCategory> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugcategory/anti-inflammatoryAgents> .
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/possibleDiseaseTarget> ?disease .
+?disease <http://www.w3.org/2000/01/rdf-schema#label> ?name . 
+}
+
+
+#27#
+select * 
+{
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/ingredient/Methotrexate> .
+?drug <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName> ?drugname . 
+}
+
+
+#28#
+select * 
+{
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> <http://www4.wiwiss.fu-berlin.de/dailymed/resource/ingredient/Methotrexate> .
+?drug <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name . 
+}
+
+
+#29#
+select * 
+{
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/target> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/targets/824> .
+?drug <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name . 
+}
+
+
+
+#30#
+select * 
+{
+?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/target> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/targets/824> .
+?drug <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other  <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName> ?drugname .
+}

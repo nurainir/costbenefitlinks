@@ -1,0 +1,78 @@
+#61#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00136> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#62#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00150> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#63#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00572> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#64#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00683> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#65#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00945> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#66#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00020> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ?drug . 
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#67#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00023> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ?drug . 
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#68#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00024> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug>  ?drug . 
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#69#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00031> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug>  ?drug . 
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#70#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00038> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandedDrug> ?drug . 
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}

@@ -1,0 +1,78 @@
+#51#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/10100> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#52#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/104865> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#53#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/1117> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#54#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/2083> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#55#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/2751> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#56#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0000768> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#57#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0040034> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#58#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0041351> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#59#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0085584> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}
+
+
+#60#
+SELECT *
+{ 
+<http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0600139> <http://www.w3.org/2002/07/owl#sameAs> ?other .
+?other <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+}

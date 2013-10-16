@@ -1,0 +1,19 @@
+select  ?brandname ?genericname {
+?drug a <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/drugs> .
+?drug <http://www.w3.org/2000/01/rdf-schema#label> ?brandname .
+?drug <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ?anydrug .
+?anydrug <http://www.w3.org/2000/01/rdf-schema#label> ?genericname .
+}
+limit 10
+
+The following are a list of Branded Drug and its Generic Drug *
+Leflunomide (Tablet) - Leflunomide	
+"Arava (Tablet -  Film Coated)" - Leflunomide	
+Zazole (Cream) - Terconazole	
+Terconazole (Suppository) - Terconazole	
+Zazole (Suppository) - Terconazole	
+"Lozol (Tablet -  Film Coated)" - Indapamide	
+"ZOCOR (Tablet -  Film Coated)" - Simvastatin	
+Halotestin (Tablet) - Fluoxymesterone	
+ANDROXY (Tablet) - Fluoxymesterone	
+COSMEGEN  - Dactinomycin
